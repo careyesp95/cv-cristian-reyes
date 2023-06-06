@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-project-section{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    background-color:#f6f8fa;
+}
+
+
+.container-project-section title{
+    display:flex;
+    align-items:justify;
+    color:rgba(56, 55, 55,0.6);
+    justify-content:center;
+    font-size:40px;
+    margin:0 auto;
+    font-family: Calibri, sans-serif;
+
+    position: relative;
+    border-bottom: 4px red solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
