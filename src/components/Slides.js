@@ -3,7 +3,7 @@ import "./Slider.css";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons';
-import homeImage from '../assets/img/home.png';
+import homeImage from '../assets/img/home.avif';
 import landingImage from '../assets/img/landing.png';
 
 const slidesInfo = [
