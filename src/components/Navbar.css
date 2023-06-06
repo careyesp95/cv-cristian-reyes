@@ -9,12 +9,13 @@
     display: flex;
     position: relative;
     align-items: center;
-    background-color:#f6f8fa37;
+    background-color: transparent;
 }
 
 .icon-style{
     color:black;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .icon-style:hover {
@@ -34,10 +35,10 @@
 
 
 button {
-    margin-left: 10px;
+    margin: 0 auto;
     display:flex;
     flex-direction: column;
-    width: 3rem;
+    width: 0.1rem;
     height: 3rem;
     border: 0;
     background: transparent;
@@ -50,7 +51,7 @@ button > div {
     background: black;
     margin-top: 9px;
     height: 2px;
-    width: 70%;
+    width:10vw;
     border-radius: 5px;
     transition: all .5s;
     transform-origin: left;
@@ -76,7 +77,7 @@ button:hover div:last-child{
     right: 2rem;
     top:60px;
     width:380px;
-    background: rgba(224, 218, 218, 0.655);
+    background: rgba(224, 218, 218, 0.221);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;

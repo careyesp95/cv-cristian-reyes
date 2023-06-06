@@ -100,6 +100,7 @@ function Navbar (){
             <li><a  className='a-hover-container' href='/#contact' onClick={handleClick}>Contact Me</a></li>
           </ul>
           <button
+            className='button-navbar'
             onClick={onMenuDropdown}
           >
               <div></div>
