@@ -28,8 +28,12 @@
 
 .image-landing-section img {
     word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     font-size:small;
-    max-width:100%;
+    max-width:60%;
     border-radius:100px;
     border: 0.2px solid rgba(22, 21, 21, 0.944);
 }
@@ -52,6 +56,15 @@
         text-align:justify;
         word-wrap: break-word;
     }
+    .image-landing-section img {
+        text-align: justify;
+        animation: bg-image 11s;
+        animation-direction:alternate;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media (max-width:699px) {
     .image-landing-section img {
         text-align: justify;
         animation: bg-image 11s;

@@ -2,14 +2,12 @@ import React from "react";
 import "./Slider.css";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons';
-import paper from '../assets/img/paperIEEE.png';
-import certiPaper from '../assets/img/certi.png';
 
 
 const slidesInfo = [
   {
     id:1,
-    src:{paper},
+    src:"/paperIEEE.png",
     alt: "Science research",
     url: "https://ieeexplore.ieee.org/document/9505418",
     target:"_blank",
@@ -18,7 +16,7 @@ const slidesInfo = [
   },
   {
     id:2,
-    src:{certiPaper},
+    src:"/certi.png",
     alt: "Science research",
     url: "https://ieeexplore.ieee.org/document/9505418",
     target:"_blank",

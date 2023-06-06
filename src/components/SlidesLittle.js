@@ -2,15 +2,12 @@ import React from "react";
 import "./Slider.css";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import homeLittle from '../assets/img/homeLittlelemon.png';
-import productsLittle from '../assets/img/productsLittle.png';
-import bookingLittle from '../assets/img/bookingLittle.png';
 
 
 const slidesInfo = [
   {
     id:1,
-    src:{homeLittle},
+    src:"/homeLittlelemon.png",
     alt: "Little SPA",
     url: "https://github.com/careyesp95/booking",
     target:"_blank",
@@ -20,7 +17,7 @@ const slidesInfo = [
   },
   {
     id:2,
-    src:{productsLittle},
+    src:"/productsLittle.png",
     alt: "Little SPA",
     url: "https://github.com/careyesp95/booking",
     target:"_blank",
@@ -30,7 +27,7 @@ const slidesInfo = [
   },
   {
     id:3,
-    src:{bookingLittle},
+    src:"/productsLittle.png",
     alt: "Little SPA",
     url: "https://github.com/careyesp95/booking",
     target:"_blank",

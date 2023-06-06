@@ -2,15 +2,13 @@ import React from "react";
 import "./Slider.css";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import homeRecipe from '../assets/img/homeRecip.png';
-import homeRecipes from '../assets/img/homeRecipes.png';
-import landingRecipe from '../assets/img/landingRecipe.png';
+
 
 
 const slidesInfo = [
   {
     id:1,
-    src:{homeRecipe},
+    src:"/homeRecip.png",
     alt: "Food SPA",
     url: "https://github.com/careyesp95/App-Food-Main",
     target:"_blank",
@@ -20,7 +18,7 @@ const slidesInfo = [
   },
   {
     id:2,
-    src:{homeRecipes},
+    src:"/homeRecipes.png",
     alt: "Food SPA",
     url: "https://github.com/careyesp95/App-Food-Main",
     target:"_blank",
@@ -30,7 +28,7 @@ const slidesInfo = [
   },
   {
     id:3,
-    src:{landingRecipe},
+    src:"/landingRecipe.png",
     alt: "Food SPA",
     url: "https://github.com/careyesp95/App-Food-Main",
     target:"_blank",
