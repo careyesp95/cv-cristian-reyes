@@ -3,11 +3,13 @@ import "./Slider.css";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons';
+const home = require.context('../assets/img/home.png', true);
+const landing = require.context('../assets/img/landing.png', true);
 
 const slidesInfo = [
   {
     id:1,
-    src:'../assets/img/home.avif',
+    src:{home},
     alt: "JamStack",
     url: "https://github.com/sergiogrimaldo/EcommercePG",
     target:"_blank",
@@ -17,7 +19,7 @@ const slidesInfo = [
   },
   {
     id:2,
-    src:'../assets/img/landing.png',
+    src:{landing},
     alt: "JamStack futures",
     url: "https://ecommerce-pg.vercel.app/home",
     target:"_blank",
