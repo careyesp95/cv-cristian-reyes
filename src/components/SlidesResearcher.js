@@ -3,7 +3,6 @@ import "./Slider.css";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons';
 
-
 const slidesInfo = [
   {
     id:1,
