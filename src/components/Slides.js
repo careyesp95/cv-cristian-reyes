@@ -11,7 +11,7 @@ const slidesInfo = [
     id:1,
     src:"/home.png",
     alt: "JamStack",
-    url: "https://github.com/sergiogrimaldo/EcommercePG",
+    url: "https://ecommerce-pg.vercel.app/home",
     target:"_blank",
     desc:'Website',
     icon:faArrowUpFromBracket
@@ -21,7 +21,7 @@ const slidesInfo = [
     id:2,
     src:"/landing.png",
     alt: "JamStack futures",
-    url: "https://ecommerce-pg.vercel.app/home",
+    url: "https://github.com/sergiogrimaldo/EcommercePG",
     target:"_blank",
     desc:'Repository',
     icon:faGithub
