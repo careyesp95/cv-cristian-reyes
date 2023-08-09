@@ -5,7 +5,7 @@ function About(){
     const about =[
         {
             title:'About Me',
-            descripction:`As a Full stack developer, I have acquired good practices using cutting-edge development tools and techniques, furthermore technological skills such as: JavaScript, Python, HTML5, CSS3, Bootstrap, NodeJs, ReactJs, ReduxJs, Expess, Sequelize, PostgreSQL, UX/UI Figma, Control Version. On the other hand, I characterize myself to be a team player who thrives in collaborating with cross-functional teams to build outstanding web applications.`,
+            descripction:`As a Full stack developer, I have learned good practices using cutting-edge development tools and techniques, furthermore technological skills such as: JavaScript, Python, HTML5, CSS3, Bootstrap, NodeJs, ReactJs, ReduxJs, Expess, Sequelize, PostgreSQL, MongoDB, Docker, Virtual Machines, UX/UI Figma, Control Version. On the other hand, I characterize myself to be a team player who thrives in collaborating with cross-functional teams to build outstanding web applications.`,
         }
     ]
     return (
