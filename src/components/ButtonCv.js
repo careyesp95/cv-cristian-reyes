@@ -1,6 +1,6 @@
 import './ButtonCv.css';
 
-const data = '../assets/img/CvCristianReyes.pdf';
+const data = './CvCristianReyes.pdf';
 function ButtonCv() {
 
     function onHandleClick (data) {
