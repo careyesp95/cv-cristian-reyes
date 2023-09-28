@@ -13,7 +13,7 @@ import ButtonCv from './ButtonCv.js';
 const profile =[{
   id:1,
   greeting: "Hi, I'm Cristian Reyes!",
-   bio1: `I’m a Full stack developer and I’m also an Electronic Engineer. I'm the type of person who is passionate for technology and the feeling of emotion of reaching the balance between technical maturity and creativity.`,
+   bio1: `I’m a Full Stack Developer and I’m also an Electronic Engineer, with experience like a scientific researcher, team leader, backend and frontend developer.`,
    icon:faLaptopCode
 
 }]
